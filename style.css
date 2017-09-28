@@ -1,0 +1,103 @@
+body {
+  margin: 50px auto;
+  width: 1170px;
+  border-radius: 5px;
+  background-image: url("images/jambo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Open Sans",sans-serif;
+}
+
+.header, .menu, .footer {
+  padding: 20px;
+  border-radius: 2px;
+  margin: 2px;
+  background-color: #fff; /* For browsers that do not support gradients */
+  background: linear-gradient(-90deg, #f6f5f3, #fff);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.image {
+  height: 43px;
+}
+
+.navigation a {
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #551a8b;
+}
+
+a, a:link {
+  text-decoration: none;
+  padding: 10px;
+  text-decoration-color: #551a8b;
+  color: #551a8b;
+}
+
+a:hover, a:link:hover {
+  border-radius: 5px;
+  background-color: #551a8b;
+  color: #fff;
+}
+
+.page-body {
+  display: flex;
+}
+
+.menu {
+  float: left;
+  width: 22.4%;
+}
+
+h1, h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #551a8b;
+}
+
+li {
+  margin: 10px;
+  list-style-type: circle;
+}
+
+.content {
+  float: left;
+  width: 70%;
+  padding: 20px;
+  border-radius: 2px;
+  margin: 2px;
+  background-color: #f9f1c9;
+}
+
+p {
+  text-indent: 10px;
+  text-align: justify;
+}
+
+.movie {
+  float: right;
+  margin: 10px;
+  width: 560px;
+  height: 315px;
+  border: none;
+  overflow: hidden;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  color: #551a8b;
+}
+
